@@ -1,0 +1,125 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4919516,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 292270,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeValidation()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Search for items and validate result",
+        "description": "",
+        "id": "landing-into-greencart-and-search-vegitable-and-select-it;search-for-items-and-validate-result",
+        "after": [
+          {
+            "result": {
+              "duration": 2793972444,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterValidations()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37632460597,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Greencart landing page",
+            "match": {
+              "location": "MyStepDefinitions.user_is_on_greencart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9876446293,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User searched for Cucumber vegitable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepDefinitions.user_searched_for_something_vegitable(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6371733374,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Cucumber result are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 0
+                }
+              ],
+              "location": "MyStepDefinitions.something_result_are_displayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8622256561,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "confirm the checkout item is Cucumber",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 29
+                }
+              ],
+              "location": "MyStepDefinitions.confirm_the_checkout_item_is_something(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Landing into GreenCart and Search vegitable and select it",
+    "description": "",
+    "id": "landing-into-greencart-and-search-vegitable-and-select-it",
+    "keyword": "Feature",
+    "uri": "pickMyVeggi.feature"
+  }
+]
