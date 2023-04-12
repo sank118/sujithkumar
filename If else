@@ -1,0 +1,22 @@
+direction = input("left or right?").lower()
+if direction == "right":
+    print("Game Over")
+else:
+    mode= input("Swim or wait ").lower()
+    if(mode=="swim"):
+        print("Game Over")
+    else:
+        door = input("Which door red, blue or Yellow ").lower()
+        if door=="blue" or door=="red":
+            print("Game Over")
+        else:
+            print("You Win")
+			------------------------
+			
+a=int(input("Enter the first number "))
+# b=int(input("Enter the Second number"))
+c=a%2
+if (c==0):
+    print(f"The number {a} is even number")
+else:
+    print(f"The number {a} odd number")
