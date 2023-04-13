@@ -19,6 +19,7 @@ public class base {
 		driver=new ChromeDriver();
 		driver.get(prop.getProperty("url"));
 		return driver;
+		
 	}
 
 }

@@ -16,6 +16,9 @@
     <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
 	
+	<New Line>
+	update the file to Repo
+	<sdfs>
 		
   <dependencies>
 		<dependency>

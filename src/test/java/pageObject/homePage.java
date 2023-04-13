@@ -43,6 +43,9 @@ public class homePage {
 	
 	public WebElement proceedToCard() {
 		return driver.findElement(btn_proceedToCart);
+		System.out.println("First line");
+		System.out.println("Second line");
+		System.out.println("Third line");
 	}
 	
 }
